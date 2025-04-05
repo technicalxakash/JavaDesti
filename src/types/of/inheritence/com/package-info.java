@@ -1,0 +1,1 @@
+package types.of.inheritence.com;
