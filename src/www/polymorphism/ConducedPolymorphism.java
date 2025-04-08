@@ -75,7 +75,7 @@ public class ConducedPolymorphism {
 	      Tiger ti=new Tiger();
 	      Dog dg=new Dog();
 	      
-	      Animal ref;
+	      
 	      
 	    Forest ff=new Forest();
 	    ff.permit(el);
@@ -95,7 +95,7 @@ public class ConducedPolymorphism {
 	      dg.smells();
 	      dg.niyath();
 	      System.out.println("==================================");
-
+System.out.println("=========================================================");
 	}
 
 }
