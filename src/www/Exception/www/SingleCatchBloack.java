@@ -33,3 +33,12 @@ public class SingleCatchBloack {
 	       
 	    }
 }
+
+/*
+Division operator is initated
+enter num1
+100
+enter num2
+0
+Exception is handled
+*/
