@@ -30,9 +30,9 @@ public class TryWithCatchAndFinally {
 		            System.out.println("array operation completed");
 		        } 
 		        
-//		        catch (Exception e){
-//		           System.out.println(" exception handled");
-//		        }
+		        catch (Exception e){
+		           System.out.println(" exception handled");
+	        }
 		        finally {
 		        	System.out.println("hiii this the mandatory code");
 		        }
@@ -40,3 +40,25 @@ public class TryWithCatchAndFinally {
 		    }
 		
 }
+/*
+ //with catch block
+Division operator is initated
+enter num1
+100
+enter num2
+0
+ exception handled
+hiii this the mandatory code
+ 
+//without Catch block
+output=Division operator is initated
+enter num1
+a
+hiii this the mandatory code
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at www.Exception.www.TryWithCatchAndFinally.main(TryWithCatchAndFinally.java:13)
+*/
