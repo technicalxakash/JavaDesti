@@ -8,6 +8,8 @@ public class TryWithMultiCatch {
 	    public static void main(String[] args) {
 	        try {
 	            Scanner sc = new Scanner(System.in);
+	            
+	            
 	            System.out.println("Division operator is initated");
 	            System.out.println("enter num1");
 	            int n1 = sc.nextInt();//critical statement
