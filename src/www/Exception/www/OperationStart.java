@@ -1,5 +1,6 @@
 //using throws
 package www.Exception.www;
+/*
 import java.util.Optional;
 import java.util.Scanner;
 
@@ -62,10 +63,20 @@ public class OperationStart {
 //Left function 4
 //Left main
 
-//output2=
+//output2=Inside func 1
+enter num 1
+2
+enter num 2
+0
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at www.Exception.www.Operation1.function1(OperationStart.java:14)
+	at www.Exception.www.Operation2.function2(OperationStart.java:22)
+	at www.Exception.www.Operation3.function3(OperationStart.java:30)
+	at www.Exception.www.Operation4.function4(OperationStart.java:38)
+	at www.Exception.www.OperationStart.main(OperationStart.java:48)
+*/
 
 /*
-package www.Exception.www;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -147,4 +158,17 @@ public class OperationStart {
         }
     }
 }
+
+output=Inside func 1
+Enter num 1:
+2
+Enter num 2:
+0
+Arithmetic Exception
+Left function 1
+Left function 2
+Left function 3
+Left function 4
+Left main
+
 */
