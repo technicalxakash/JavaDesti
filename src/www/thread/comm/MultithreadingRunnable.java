@@ -2,7 +2,7 @@ package www.thread.comm;
 
 import java.util.Scanner;
 
-class Operation1 extends Thread{
+class Operation1 implements Runnable{
 	
    @Override
 public void run() {
@@ -15,9 +15,10 @@ int sum=n1+n2;
 System.out.println(sum);
 System.out.println("Addtition operation completed");
 
-}}
+}
+}
 
-class Operation2 extends Thread{
+class Operation2 implements Runnable{
 @Override
 public void run() {
 	try {System.out.println("priting operation started");
@@ -34,7 +35,7 @@ catch(Exception e) {
 }
 }
 }
-class Operation3 extends Thread{
+class Operation3 implements Runnable{
 @Override
 public void run() {
 	Scanner sc=new Scanner(System.in);
@@ -55,43 +56,24 @@ public void run() {
 
 }
 
-class Multithread{
-	
-	
-	public static void main(String[] args){
-		// TODO Auto-generated method stub
-		Operation1 op1=new Operation1();
-		  
-		  Operation2 op2=new Operation2();
+class MultithreadingRunnable
+{	
+	public static void main(String[] args)
+	{
 		
+		Operation1 op1=new Operation1();
+		  Thread t1=new Thread(op1);
+		  Operation2 op2=new Operation2();
+		  Thread t2=new Thread(op2);
 		  Operation3 op3=new Operation3();
+		  Thread t3=new Thread(op3);
 		  
 		  
-		  op1.start();
-		  op2.start();
-		  op3.start();
-
+		     t1.start();
+			t2.start();
+			t3.start();
+		  
 	} 
-		// TODO Auto-generated method stub
+		
  
-}
-//output=priting operation started
-//hi from print
-//banking operation started
-//enter user name: 
-//Enter num1 : 
-//hi from print
-//hi from print
-//hi from print
-//hi from print
-//Printing operation completed 
-//abc
-//enter pin: 
-//2
-//123
-//Enter num2 : 
-//valid user
-//banking completed
-//3
-//5
-//Addtition operation completed
+} 
