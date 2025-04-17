@@ -14,6 +14,7 @@ int n2 = sc.nextInt();
 int sum=n1+n2;
 System.out.println(sum);
 System.out.println("Addtition operation completed");
+sc.close();
 
 }
 }
@@ -52,6 +53,7 @@ public void run() {
 			System.out.println("invalid user");
 		}
 		System.out.println("banking completed");	
+		sc.close();
 }
 
 }
@@ -69,7 +71,7 @@ class MultithreadingRunnable
 		  Thread t3=new Thread(op3);
 		  
 		  
-		     t1.start();
+		    t1.start();
 			t2.start();
 			t3.start();
 		  
