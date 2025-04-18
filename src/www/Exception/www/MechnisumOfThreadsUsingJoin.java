@@ -37,6 +37,15 @@ public class MechnisumOfThreadsUsingJoin {
 		c2.start();
   	    c2.join();
 		c3.start();
+//		output=akash has enter the interview cabin
+//				akash is giving the interview inside the cabin
+//				manasvi has enter the interview cabin
+//				manasvi is giving the interview inside the cabin
+//				akash has completed the interview and excited interview
+//				manasvi has completed the interview and excited interview
+//				chandru has enter the interview cabin
+//				chandru is giving the interview inside the cabin
+//				chandru has completed the interview and excited interview
 	}
 
 }
