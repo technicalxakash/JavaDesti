@@ -14,6 +14,9 @@ public class ArrrrrrayyyyyLiiisstt {
 		a1.add(50);
 		a1.add(150);
 		a1.add(25);
+		
+		
+		
 		a1.add(125);
 		a1.add(75);
 		a1.add(175);

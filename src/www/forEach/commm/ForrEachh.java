@@ -56,6 +56,7 @@ public class ForrEachh {
     students.forEach((i,j)->System.out.println(i+">>>"+j));
 	}
 }
+
 //1>>>akash
 //2>>>sai
 //3>>>vinod
