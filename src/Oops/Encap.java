@@ -3,12 +3,11 @@ package Oops;
 class A{
 	
 	private int var;
-
-	public void setname(int x) {
+	void setname(int x) {
 		var=x;
 	}
 	
-	public int getname() {
+	int getname() {
 		return var;
 	}		
 }
