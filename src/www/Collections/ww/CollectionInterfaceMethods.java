@@ -36,10 +36,9 @@ public class CollectionInterfaceMethods {
 	        System.out.println("empty are not "+a.isEmpty());
 	        
 	        System.out.println("is a element is all present in b eleemnts "+a.containsAll(b));
-	        
-	        
+	        	        
 	        System.out.println(a.remove(100));
-	        		
+	        	        		
 	        System.out.println(a);
 
 	}
