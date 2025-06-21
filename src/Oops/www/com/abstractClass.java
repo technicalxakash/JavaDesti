@@ -28,8 +28,6 @@ class person extends Tv{
 	
 }
 
-
-
 public class abstractClass {
 
 	public static void main(String[] args) {
@@ -38,6 +36,7 @@ public class abstractClass {
 		p.switchon();
 		p.switchoff();
 		p.watching();
+		
 		
 		
 		
