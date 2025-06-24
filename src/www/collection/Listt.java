@@ -57,15 +57,15 @@ public class Listt {
 		a.remove(1);
 		
 		System.out.println("forward direction");
-		Iterator<Integer> c=a.iterator();
+		ListIterator<Integer> c=a.listIterator();
 		while(c.hasNext()) {
 			System.out.println(c.next());
 		}
 		
 		System.out.println("reverse directions");
-		ListIterator<Integer> cc=a.listIterator();
-		while(cc.hasPrevious()) {
-			System.out.println(cc.previous());
+		
+		while(c.hasPrevious()) {
+			System.out.println(c.previous());
 		}
 		
 	}
