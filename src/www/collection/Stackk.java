@@ -20,14 +20,17 @@ public class Stackk {
 //		System.out.println(a);
 //		System.out.println(a.search(100));
 		
-		Queue<Integer> a=new LinkedList<Integer>();
+		List<Integer> a=new LinkedList<Integer>();
 		a.add(100);
 		a.add(200);
 		a.add(300);
 		a.add(400);
 //		System.out.println(a.get(0));
-//		System.out.println(a.get(1));
-//		
+		System.out.println(a.get(1));
+		
+
+		
+		
 		
 		
 	}
