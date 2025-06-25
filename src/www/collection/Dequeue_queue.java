@@ -33,6 +33,9 @@ public class Dequeue_queue {
 	System.out.println(a.removeFirst());
 	System.out.println(a.pollLast());
 	System.out.println(a);
+	
+	
+	
 	}
 
 }
