@@ -17,13 +17,11 @@ class Students implements Comparable<Students>{
 	@Override
 	public int compareTo(Students o) {
 		
-		return o.age;
+		return o.age-this.age;
 	}
 	
 	
 }
-
-
 
 public class defaultSorting {
 
@@ -32,7 +30,7 @@ public class defaultSorting {
 		
 		Students s1=new Students(15);
 		Students s2=new Students(8);
-		Students s3=new Students(10);
+		Students s3=new Students(16);
 		
 		PriorityQueue<Students> p=new PriorityQueue<Students>();
 		p.add(s1);
