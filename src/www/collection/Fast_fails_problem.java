@@ -17,6 +17,8 @@ public class Fast_fails_problem {
 		Iterator<Integer> s=a.iterator();
 		while(s.hasNext()) {
 			System.out.println(s.next());
+			a.add(25);
+			
 		}
 
 	}
