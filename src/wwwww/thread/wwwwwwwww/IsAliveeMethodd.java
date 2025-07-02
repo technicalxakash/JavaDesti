@@ -11,7 +11,6 @@ class demooo extends Thread{
 public class IsAliveeMethodd {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		demooo d=new demooo();
 		System.out.println(d.isAlive());

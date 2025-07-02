@@ -19,7 +19,7 @@ public class ByExtendingThreadClass {
 	
 
 		demo d=new demo();//new state
-	
+
 		d.start();
 	}
 
